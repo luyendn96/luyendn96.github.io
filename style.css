@@ -81,12 +81,12 @@ body {
 }
 .navi .navi1 {
 	float: left;
-	width: 75%;
+	width: 80%;
 	height: 100%;
 }
 .navi .navi2 {
 	float: left;
-	width: 25%;
+	width: 20%;
 	height: 100%;
 }
 .navi .navi1 ul {
@@ -97,7 +97,7 @@ body {
 .navi .navi1 ul li {
 	float: left;
 	margin-left: 20px;
-	margin-top: -5px;
+	margin-top: 10px;
 }
 .navi .navi1 ul li a {
 	text-align: center;
@@ -114,13 +114,13 @@ body {
 }
 .navi .navi2 ul {
 	list-style: none;
-	margin-left: 80px;
+	margin-left: 60px;
 
 }
 .navi .navi2 ul li {
 	float: left;
 	margin-left: 10px;
-	margin-top: -10px;
+	margin-top: 10px;
 }
 .navi .navi2 ul li a {
 	text-decoration: none;
@@ -138,7 +138,6 @@ body {
 	margin: 0 auto;
 	width: 65%;
 	height: 380px;
-	background: grey;
 }
 .slideshow .picturelink {
 	width: 100%;
@@ -162,7 +161,7 @@ body {
 	z-index: 100;
 	width: 40px;
 	height: 40px;
-	 margin-left: 1220px;
+	 margin-left: 1030px;
 	margin-top: -230px;
 }
 .link .prev {
@@ -170,7 +169,7 @@ body {
 	z-index: 100;
 	width: 40px;
 	height: 40px;
-	margin-left: 165px;
+	margin-left: 120px;
 	margin-top: -230px;
 }
 /*-------------CONTENT----------*/
@@ -262,6 +261,7 @@ body {
 	margin:0;
 	padding-top: 5px;
 	font-size: 20px; 
+	margin-left: 30px;
 }
 .footer2 {
 	width: 100%;
@@ -287,10 +287,10 @@ body {
 .footer3 .foo1 .foo13 {
 	width: 100%;
 	height: 70%;
+	margin-left: 30px;
 }
 .footer3 .foo1 .foo12 p {
 	padding-top: 20px;
-	padding-left: 10px; 
 }
 .footer3 .foo1 .foo12 a {
 	text-decoration:none;
@@ -316,8 +316,14 @@ body {
 	width: 100%;
 	height: 100%;
 }
-.foo12 .ppp{margin-left: 20px;}
+.foo12 .ppp{
+	
+	    padding-left: 40px;
+}
 /*-----------*/
+.foo1_link ul {
+	margin-left: 60px;
+}
 .foo1_link ul li {
 	margin-top: 10px;
 }
