@@ -1,0 +1,340 @@
+body {
+   width: auto;
+   height: auto;
+   background-image: url('../images/mannen.png'); 
+
+}
+
+.intro {
+	width: 100%;
+	height: 40px;
+	background: #444444;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.intro1 {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.intro2 {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.intro2 ul {
+	list-style: none;
+	margin-top: 20px;
+}
+.intro2 ul li {
+    margin-top: -10px;
+    float: left;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.intro2 ul li a {
+	text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+	color: white;
+}
+.intro2 ul li a:hover {
+	text-decoration:underline;
+}
+.intro2 ul li.carIcon {
+    background: url('../images/cart-icon.png') left 4px no-repeat;
+    background-size: 20px;   
+}
+/*----------------------------------*/
+.title {
+	margin: 0 auto;
+	width: 65%;
+	height: 100px;
+	
+}
+.title .title1{
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+.title .search{
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+.title .title1 .pic{
+	    padding-top: 15px;
+}
+.title .search form input{
+	    margin-top: 30px;
+	    width: 170px;
+   	    height: 26px;
+}
+/*-------------------------------*/
+.navi {
+	margin: 0 auto;
+	width: 65%;
+	height: 50px;
+}
+.navi .navi1 {
+	float: left;
+	width: 75%;
+	height: 100%;
+}
+.navi .navi2 {
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.navi .navi1 ul {
+	list-style: none;
+	margin-left: -30px;
+
+}
+.navi .navi1 ul li {
+	float: left;
+	margin-left: 20px;
+	margin-top: -5px;
+}
+.navi .navi1 ul li a {
+	text-align: center;
+	text-decoration:none;
+	display: block;
+	width: 83px;
+	height: 30px;
+	line-height: 30px;
+	border-right: 1.5px solid grey; 
+	color: #444;
+}
+.navi .navi1 ul li a:hover {
+	color: red;
+}
+.navi .navi2 ul {
+	list-style: none;
+	margin-left: 80px;
+
+}
+.navi .navi2 ul li {
+	float: left;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+.navi .navi2 ul li a {
+	text-decoration: none;
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.iconnavi {
+	width: 100%;
+	height: 100%;
+}
+/*--------------------------------------------*/
+.slideshow {
+	position: relative;
+	margin: 0 auto;
+	width: 65%;
+	height: 380px;
+	background: grey;
+}
+.slideshow .picturelink {
+	width: 100%;
+	height: 380px;
+}
+.link ul {
+	list-style: none;
+}
+.link ul li {
+	float: left;
+	margin-left: 40px;
+}
+.link ul li a {
+	text-decoration: none;
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.link .next {
+	position: absolute;
+	z-index: 100;
+	width: 40px;
+	height: 40px;
+	 margin-left: 1220px;
+	margin-top: -230px;
+}
+.link .prev {
+	position: absolute;
+	z-index: 100;
+	width: 40px;
+	height: 40px;
+	margin-left: 165px;
+	margin-top: -230px;
+}
+/*-------------CONTENT----------*/
+#content {
+	margin:0 auto;
+	width: 65%;
+	height: 1480px;
+	background: white;
+}
+#content .introduce {
+	margin-top: -19px;
+	width: 100%;
+	height: 30px;
+}
+#content .introduce h3 {
+	padding-top: 25px;
+	padding-left: 15px;
+}
+.lock {
+	width: 100%;
+	height: 240px;
+}
+.lock .lock1 {
+	margin-left: 10px;
+	float: left;
+	width: 32%;
+	height: 100%;
+}
+.clothes {
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+.clothes:hover {
+	opacity: 0.6;
+}
+.khungchu {
+	margin-top: 5px;
+	width: 100%;
+	height: 27px;
+}
+.khungchu .chu {
+	float: left;
+	margin-left: 10px;
+	width: 32%;
+	height: 100%;
+	text-align: left;
+	font-weight: bold;
+}
+.khungchu .chu p {
+	margin: 0;
+	padding-top: 5px;
+	border-bottom: 0.1px solid grey;
+}
+.chitiet button{
+	width: 80px;
+    height: 30px;
+    color: white;
+    background-image: url('../images/mauchitiet.jpg');
+    background-size: 100% 100%;
+}
+.chitiet button:hover {
+	opacity: 0.6;
+}
+/*----lock giong nhau-----*/
+.tennis {
+	margin-top: 20px;
+}
+/*--------------------FOOTER-------------------------*/
+#footer {
+	margin:0 auto;
+	width: 65%;
+	height: 350px;
+}
+#footer .footer1 {
+	width: 100%;
+	height: 30px;
+}
+#footer .footer1 .dongchu {
+	float: left;
+	width: 25%;
+	height: 100%;
+	font-weight: bold;
+}
+#footer .footer1 .dongchu p {
+	margin:0;
+	padding-top: 5px;
+	font-size: 20px; 
+}
+.footer2 {
+	width: 100%;
+	height: 3px;
+	background: url('../images/duonggachmo.png');
+	background-size: 100% 100%;
+}
+.footer3 {
+	width: 100%;
+	height: 200px;
+}
+.footer3 .foo1 {
+	float: left;
+	margin-left: 5px;
+	width: 24%;
+	height: 100%;
+}
+.footer3 .foo1 .foo12 {
+	margin-top: -15px;
+	width: 100%;
+	height: 30%;
+}
+.footer3 .foo1 .foo13 {
+	width: 100%;
+	height: 70%;
+}
+.footer3 .foo1 .foo12 p {
+	padding-top: 20px;
+	padding-left: 10px; 
+}
+.footer3 .foo1 .foo12 a {
+	text-decoration:none;
+}
+.footer3 .foo1 .foo12 a:hover {
+	text-decoration: underline;
+}
+.foo13 ul {
+	margin-top: -15px;
+	list-style: none;
+}
+.foo13 ul li {
+	float: left;
+	margin-left: 10px;
+}
+.foo13 ul li a {
+	text-decoration: none;
+	display: block;
+	width: 45px;
+	height: 45px;
+}
+.iconfoot {
+	width: 100%;
+	height: 100%;
+}
+.foo12 .ppp{margin-left: 20px;}
+/*-----------*/
+.foo1_link ul li {
+	margin-top: 10px;
+}
+.foo1_link ul li a {
+	text-decoration: none;
+	color: blue;
+}
+.foo1_link ul li a:hover {
+	color: red;
+}
+.foo1_chu {
+	color: #444444;
+}
+/*-------------------------------------------*/
+.copyright {
+	margin-top: -16px;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+}
