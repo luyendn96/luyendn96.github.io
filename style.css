@@ -376,6 +376,7 @@ ul.tabs li img {
 /*-------------------FOOTER--------------*/
 
 #footer {
+	border-top: 0.5px solid grey;
 	overflow: hidden;
 	margin-top: 30px;
 	width: 100%;
